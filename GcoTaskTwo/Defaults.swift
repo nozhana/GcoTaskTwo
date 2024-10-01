@@ -40,7 +40,7 @@ struct Defaults<V: Codable> {
 extension UserDefaults {
     static var local: UserDefaults = {
         let defaults = UserDefaults.standard
-        defaults.addSuite(named: "com.nozhana.GcoTaskTwo")
+        defaults.addSuite(named: "com.nozhana.GcoTaskTwo.local")
         return defaults
     }()
 }
